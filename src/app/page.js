@@ -1,13 +1,11 @@
-import Header from "@/components/Header/Header";
-import Main from "@/components/Main/Main";
-
-
+import { Header, Main, Servicios } from "@/components/LandingPage";
 
 export default function Home() {
-  return (
-    <>
-    <Header />
-    <Main />
-    </>
-  )
+    return (
+        <>
+            <Header />
+            <Main />
+            <Servicios />
+        </>
+    );
 }
