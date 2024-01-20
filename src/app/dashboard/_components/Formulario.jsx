@@ -15,8 +15,7 @@ function Formulario() {
                 className=""
                 placeholder="Nombre, Apellido, Status"
             />
-            <hr></hr>
-            <Table >
+            <Table className="border-b-[#5c6063]">
                 <TableHeader>
                     <TableColumn>Nombre</TableColumn>
                     <TableColumn>Primer Apellido</TableColumn>
