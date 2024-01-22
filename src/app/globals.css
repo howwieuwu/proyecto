@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+.btn_primary_global {
+    @apply hover:bg-orange-300 text-orange-300 font-bold hover:text-white w-full h-full py-2.5 border rounded
+    shadow-lg ease-in duration-200 cursor-pointer;
+  }
+}
